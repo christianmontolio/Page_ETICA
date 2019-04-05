@@ -1,0 +1,371 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(g.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color: rgba(245, 245, 245, 0.2);
+	border: 1px solid white;
+}
+
+ul li.active a{
+	border: 1px solid white;
+}
+
+.row{
+	max-width: 500px;
+	margin: auto;
+}
+
+.row2{
+	max-width: 90%;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 45%;
+	left: 27%;
+	transform: translate(-50%,-50%);
+}
+
+.title2{
+  position: absolute;
+  top: 52%;
+  left: 27%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 60px;
+}
+
+.title2 h3{
+  color: #fff;
+  font-size: 30px;
+}
+
+.button{
+	position: absolute;
+	top: 64%;
+	left: 26%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: rgba(245, 245, 245, 0.4);
+	border: 1px solid white;
+	transition: 0.5s ease;
+}
+
+.card2 {
+    position: absolute;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    width: 360px;
+    height: 400px;
+    background: #000;
+}
+
+.contenido{
+  float:left;
+  width: 90%;
+}
+
+.imgRedonda {
+    width:70px;
+    height:70px;
+    border-radius:100px;
+}
+
+img.izquierda {
+  float: left;
+}
+
+.centrado{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+}
+
+.centrado2{
+    position: absolute;
+    top: 60%;
+    left: 26%;
+    font-family: Century Gothic;
+    font-size: 22px;
+    transform: translate(-50%, -50%);
+    color: #fff
+}
+
+.centrado3{
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    font-family: Century Gothic;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: #000
+}
+
+.centrado4{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    font-family: Century Gothic;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: #000
+}
+
+.card {
+    position: absolute;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    width: 360px;
+    height: 400px;
+    background: #000;
+}
+
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;/*100%*/
+    height: 100%;
+    background: #4F7B87;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+
+
+#parralax1{
+  background-image: url(imagenes/1.PNG);
+  height: 500px;
+
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#parralax2{
+  background-image: url(imagenes/2.png);
+  height: 500px;
+
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#parralax3{
+  background-image: url(imagenes/3.png);
+  height: 500px;
+
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#parralax4{
+  background-image: url(imagenes/4.png);
+  height: 500px;
+
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#parralax5{
+  background-image: url(imagenes/5.png);
+  height: 500px;
+
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#parralax6{
+  background-image: url(imagenes/6.png);
+  height: 500px;
+
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#parralax{
+  background-image: url(imagenes/infocc.jpg);
+  height: 550px;
+
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.footer {
+  margin-top: 60%;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+.footer2 {
+  margin-top: 30%;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #fff;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #fff;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #fff;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #fff;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #fff;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #fff;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 150px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #fff;
+  
+  border: solid 1px #fff;  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #fff;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+#submit {
+  width: 470px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 0.880em;
+  color: #fff;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #fff;
+}
