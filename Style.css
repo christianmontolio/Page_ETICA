@@ -182,7 +182,7 @@ img.izquierda {
 
 
 #parralax1{
-  background-image: url(Imagenes/1.PNG);
+  background-image: url(Imagenes/1.png);
   height: 500px;
 
   margin-bottom: 50px;
@@ -204,7 +204,7 @@ img.izquierda {
 }
 
 #parralax3{
-  background-image: url(imagenes/3.png);
+  background-image: url(Imagenes/3.png);
   height: 500px;
 
   margin-bottom: 50px;
