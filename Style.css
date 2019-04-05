@@ -182,7 +182,7 @@ img.izquierda {
 
 
 #parralax1{
-  background-image: url(imagenes/1.PNG);
+  background-image: url(Imagenes/1.PNG);
   height: 500px;
 
   margin-bottom: 50px;
@@ -193,7 +193,7 @@ img.izquierda {
 }
 
 #parralax2{
-  background-image: url(imagenes/2.png);
+  background-image: url(Imagenes/2.png);
   height: 500px;
 
   margin-bottom: 50px;
@@ -215,7 +215,7 @@ img.izquierda {
 }
 
 #parralax4{
-  background-image: url(imagenes/4.png);
+  background-image: url(Imagenes/4.png);
   height: 500px;
 
   margin-bottom: 50px;
@@ -226,7 +226,7 @@ img.izquierda {
 }
 
 #parralax5{
-  background-image: url(imagenes/5.png);
+  background-image: url(Imagenes/5.png);
   height: 500px;
 
   margin-bottom: 50px;
@@ -237,7 +237,7 @@ img.izquierda {
 }
 
 #parralax6{
-  background-image: url(imagenes/6.png);
+  background-image: url(Imagenes/6.png);
   height: 500px;
 
   margin-bottom: 50px;
@@ -248,7 +248,7 @@ img.izquierda {
 }
 
 #parralax{
-  background-image: url(imagenes/infocc.jpg);
+  background-image: url(Imagenes/infocc.jpg);
   height: 550px;
 
   margin-bottom: 50px;
